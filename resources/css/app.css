@@ -5,6 +5,7 @@
 /* add smooth in the body */
 body {
     scroll-behavior: smooth;
+    background-color: #05010D !important;
 }
 
 
