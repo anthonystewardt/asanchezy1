@@ -29,6 +29,8 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
        @vite(['resources/css/app.css','resources/js/app.js'])
+       <script src="https://cdn.tailwindcss.com"></script>
+
         <!-- Styles -->
 
     </head>
