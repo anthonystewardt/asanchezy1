@@ -38,7 +38,7 @@
             <div class="grid grid-cols-12">
                 <div class="xl:col-span-4 col-span-12">
                     <div class="flex  justify-center mt-5">
-                        <img src="{{ asset('/storage' .'/' . $post->image) }}"  class="w-full object-contain"  alt="">
+                        <img src="{{  $post->image_url) }}"  class="w-full object-contain"  alt="">
                     </div>
                 </div>
                 <div class="xl:col-span-8 col-span-12   py-10 px-5 ">

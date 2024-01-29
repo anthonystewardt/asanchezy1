@@ -37,7 +37,7 @@
             @foreach ($posts as $post)
             <a href="{{ route('blog.show', $post->slug)  }}" class="block xl:col-span-2 col-span-6 md:col-span-3">
                 <div class="">
-                    <img src="{{ asset('/storage' .'/' . $post->image) }}" alt="">
+                    <img src="{{  $post->image_url) }}" alt="">
                 </div>
                 <div class="my-5">
                     <span class="text-indigo-500">
