@@ -3,7 +3,7 @@
                 <div class=" flex items-center justify-between">
                     <div class="">
                         <a href="{{ route('home') }}" class="text-blue-500 text-3xl font-semibold">
-                            <img src="{{ asset('/images/logoasanchezy.png')}}" class="w-[200px] object-contain" alt="">
+                            <img src="{{ asset('/images/logoasanchezy.png')}}" class="xl:w-[200px] w-[130px] object-contain" alt="">
                         </a>
                     </div>
                     <div class="flex items-center gap-3">
@@ -32,17 +32,17 @@
                             <ul class="flex items-center">
                                 <li>
                                     <a href="https://www.instagram.com/anthonysanchez2748/" target="_blank">
-                                        <img src="{{asset('images/ig.png')}}" class="w-[30px] h-[30px] object-contain" alt="">
+                                        <img src="{{asset('images/ig.png')}}" class="xl:w-[30px] w-[20px] xl:h-[30px] h-[20px] object-contain" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://www.facebook.com/profile.php?id=100005621298855&locale=es_LA" target="_blank">
-                                        <img src="{{asset('images/facebook2.png')}}" class="w-[30px] h-[30px] object-contain" alt="">
+                                        <img src="{{asset('images/facebook2.png')}}" class="xl:w-[30px] w-[20px] xl:h-[30px] h-[20px] object-contain" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/anthony-stewardt-sanchez-yupanqui-62751b1b5/" target="_blank">
-                                        <img src="{{asset('images/linkedin2.png')}}" class="w-[30px] h-[30px] object-contain" alt="">
+                                        <img src="{{asset('images/linkedin2.png')}}" class="xl:w-[30px] w-[20px] xl:h-[30px] h-[20px] object-contain" alt="">
                                     </a>
                                 </li>
                             </ul>

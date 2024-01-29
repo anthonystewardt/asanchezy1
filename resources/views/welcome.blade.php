@@ -40,24 +40,36 @@
             body {
                 background-color: #05010D;
             }
+
+            .gradientcontainer {
+                background: hsla(48, 100%, 3%, 1);
+
+                    background: linear-gradient(315deg, hsla(48, 100%, 3%, 1) 0%, hsla(226, 69%, 30%, 1) 100%);
+
+                    background: -moz-linear-gradient(315deg, hsla(48, 100%, 3%, 1) 0%, hsla(226, 69%, 30%, 1) 100%);
+
+                    background: -webkit-linear-gradient(315deg, hsla(48, 100%, 3%, 1) 0%, hsla(226, 69%, 30%, 1) 100%);
+
+                    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0F0C00", endColorstr="#183182", GradientType=1 );
+            }
         </style>
 
 
     </head>
-    <body class="antialiased  p-10  scroll-smooth relative" >
+    <body class="antialiased  xl:p-10 px-5 py-4 scroll-smooth relative" >
         <x-header />
         <a href="https://wa.me/51918822791?text=%C2%A1Hola!" target="_blank">
             <img src="{{ asset('images/whatsapp.png')}}" class="fixed z-50 bottom-10 right-10  h-[60px] w-[60px]" alt="">
         </a>
         {{-- <x-carousel /> --}}
         <x-hero-title />
-        <div class=" text-center  my-10 flex justify-center">
+        <div class=" text-center  mt-10 flex justify-center">
             <div class="w-1/2">
                 <span class="text-white xl:text-2xl opacity-50 text-center">Cuéntanos tu proyecto y nos encargaremos de crearte toda una experiencia con las mejores tecnologías.</span>
             </div>
         </div>
         <x-services />
-        <section class="xl:mt-36 mt-20 container mx-auto w-2/3">
+        <section class="xl:mt-36 mt-20 container mx-auto xl:w-2/3">
             <div class="grid grid-cols-6 gap-5">
                 <div class="xl:col-span-3 col-span-6">
                     <h1 class="text-3xl font-semibold text-white">¿Qué tipos de servicios damos?</h1>
@@ -75,7 +87,7 @@
             </div>
         </section>
 
-        <section class="mt-36 container mx-auto w-2/3">
+        <section class="mt-36 container mx-auto xl:w-2/3 ">
             <div class="grid grid-cols-6 gap-5">
                 <div class="xl:col-span-3 col-span-6">
                     <img src="{{ asset('images/languages.png') }}" alt="">

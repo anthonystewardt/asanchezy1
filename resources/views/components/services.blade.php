@@ -19,12 +19,12 @@
             </div>
         </div>
     </div>
-    <div class="xl:w-2/3  h-[50vh] xl:h-[90vh]  mt-48 gradient1 rounded-lg" id="services">
+    <div class="xl:w-2/3  h-[50vh] xl:h-[90vh]  xl:mt-48 mt-16 gradientcontainer rounded-lg" id="services">
         <div class="w-full h-full flex justify-center items-center">
             <img class="w-[80%] h-2/3 object-contain rounded-lg" id="picture" src="{{ asset('/images/workcontact.png') }}" alt="">
         </div>
     </div>
-    <div class="w-2/3">
+    <div class="xl:w-2/3">
         <div class="grid grid-cols-6 gap-5 text-white mt-5">
             <div class="xl:col-span-2 col-span-6  p-5 rounded-lg bg-gray-900 bg-opacity-50">
                 <h2 class="text-1xl font-semibold mb-5">Diseño UI</h2>
