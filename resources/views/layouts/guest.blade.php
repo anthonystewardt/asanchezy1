@@ -13,7 +13,7 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-        <link rel="stylesheet" href="{{ secure_asset('vendor/tcg/voyager/assets/css/app.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('vendor/tcg/voyager/resources/assets/sass/app.scss') }}">
 
 
         <!-- Styles -->
