@@ -27,8 +27,6 @@
             <h2 class="text-2xl block">Todos los Posts:</h2>
         </div>
         <section class="grid grid-cols-6 gap-5 text-white mt-10">
-            {{-- apply foreach to $posts --}}
-
             @foreach ($posts as $post)
             <a href="{{ route('blog.show', $post->slug)  }}" class="block xl:col-span-2 col-span-6 md:col-span-3">
                 <div class="">
