@@ -1,0 +1,20 @@
+{
+  "public/images/figureplans.png": {
+    "file": "assets/figureplans-rEq3xTZP.png",
+    "src": "public/images/figureplans.png"
+  },
+  "public/images/hero.png": {
+    "file": "assets/hero-B5Z7MMSi.png",
+    "src": "public/images/hero.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-EA90OxRy.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-0UE_Kf4E.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
