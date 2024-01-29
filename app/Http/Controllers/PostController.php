@@ -17,6 +17,9 @@ class PostController extends Controller
     {
         // get 3 posts random
         $randomPosts = Post::where('id', '!=', $post->id)->inRandomOrder()->limit(3)->get();
-        return view('blog.show', compact('post', 'randomPosts'));
+        // get the first post
+        $firstPost = Post::orderBy('created_at', 'desc')->first();
+        dd($firstPost);
+        // return view('blog.show', compact('post', 'randomPosts'));
     }
 }
