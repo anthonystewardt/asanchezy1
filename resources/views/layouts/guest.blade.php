@@ -13,6 +13,8 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <link rel="stylesheet" href="{{ secure_asset('vendor/tcg/voyager/assets/css/app.css') }}">
+
 
         <!-- Styles -->
         @livewireStyles
