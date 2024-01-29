@@ -16,9 +16,14 @@
        <script src="https://cdn.tailwindcss.com"></script>
 
         <!-- Styles -->
+          <style>
+            body {
+                background-color: #05010D;
+            }
+        </style>
 
     </head>
-    <body class="antialiased  p-10 bg-gray-dark">
+    <body class="antialiased  p-10 ">
         <x-header />
         <section class="mt-20">
             <div class="border-t-2 border-opacity-50 border-b-2 border-white py-10">

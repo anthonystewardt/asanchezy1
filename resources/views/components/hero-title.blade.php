@@ -1,4 +1,4 @@
-<section class=" w-full  xl:h-[90vh] bg-hero-main bg-no-repeat bg-center bg-contain ">
+<section class=" w-full  xl:h-[90vh] bg-[url('/images/hero.png')]  bg-no-repeat bg-center bg-contain ">
     <div class="w-full h-full flex justify-center items-center flex-col gap-3  ">
          <div class="xl:w-1/3 text-center mt-10 xl:mt-0 text-white">
             <div class="flex justify-center">

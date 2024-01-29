@@ -16,9 +16,14 @@
 
        @vite(['resources/css/app.css','resources/js/app.js'])
         <!-- Styles -->
+          <style>
+            body {
+                background-color: #05010D;
+            }
+        </style>
 
     </head>
-    <body class="antialiased  p-10 bg-gray-dark">
+    <body class="antialiased  p-10 ">
         <x-header />
         <div class="text-white container mx-auto xl:w-4/5 mb-10 mt-20 text-opacity-50 hover:text-opacity-100 transition ease">
             <a href="{{ route('blog.index') }}" class="flex items-center gap-2">

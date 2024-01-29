@@ -28,17 +28,23 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="/resources/css/app.css">
-       @vite(['resources/css/app.css','resources/js/app.js'])
+        {{-- <link rel="stylesheet" href="{{ asset('/resources/css/app.css')}}"> --}}
+       {{-- @vite(['resources/css/app.css','resources/js/app.js']) --}}
        {{-- <link rel="stylesheet" href="/resources/css/app.css"> --}}
-       {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
+       <script src="https://cdn.tailwindcss.com"></script>
        {{-- <link rel="stylesheet" href="/resources/css/app.css">
         <script src="{{ mix('js/app.js') }}"></script> --}}
 
         <!-- Styles -->
+        <style>
+            body {
+                background-color: #05010D;
+            }
+        </style>
+
 
     </head>
-    <body class="antialiased  p-10  scroll-smooth relative">
+    <body class="antialiased  p-10  scroll-smooth relative" >
         <x-header />
         <a href="https://wa.me/51918822791?text=%C2%A1Hola!" target="_blank">
             <img src="{{ asset('images/whatsapp.png')}}" class="fixed z-50 bottom-10 right-10  h-[60px] w-[60px]" alt="">
