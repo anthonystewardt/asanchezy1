@@ -30,7 +30,7 @@
                         <li>Meet de 30 minutos</li>
                         <li>Sesión privada</li>
                     </ul>
-                    <a href="https://wa.me/51918822791?text=%C2%A1Hola!" class="block px-4 mt-3 py-2 rounded-lg bg-white font-bold text-gray-800 hover:bg-gray-800 hover:text-white transition ease">Agendar reunión</a>
+                    <a href="https://wa.me/51918822791?text=%C2%A1Hola!" class="block px-4 mt-3 py-2 rounded-lg bg-white font-bold text-gray-800 hover:bg-gray-800 text-center hover:text-white transition ease">Agendar reunión</a>
                 </div>
             </div>
             <div class="p-4 rounded-lg border-2 border-blue-500 ">

@@ -11,10 +11,10 @@
             </a>
             </div>
             <h1 class="text-2xl xl:text-3xl font-semibold">Hola, Soy <span class="text-blue-500">Anthony S.</span>, desarrollador FullStack con +2 años de Experiencia creando productos digitales</h1>
-            <span class="text-slate-300 xl:text-1xl">Mi trabajo ha impactado en el crecimiento de distintas empresas automatizando procesos y creando presencia digital</span>
+            <span class="text-slate-300 xl:text-1xl text-opacity-90">Mi trabajo ha impactado en el crecimiento de distintas empresas automatizando procesos y creando presencia digital</span>
          </div>
          <div class="mt-5">
-            <a href="#services" class="px-4 py-2 rounded-lg bg-yellow-50 text-semibold hover:bg-gray-dark hover:text-white transitio ease">Ver Proyectos</a>
+            <a href="#services" class="px-4 py-2 rounded-lg bg-yellow-50 text-semibold hover:bg-gray-800 hover:text-white transition ease">Ver Proyectos</a>
          </div>
     </div>
 </section>

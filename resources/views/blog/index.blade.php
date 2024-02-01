@@ -23,28 +23,32 @@
         </style>
 
     </head>
-    <body class="antialiased  p-10 ">
+    <body class="antialiased  md:p-10 p-5 ">
         <x-header />
         <section class="mt-20">
-            <div class="border-t-2 border-opacity-50 border-b-2 border-white py-10">
+            <div class="border-t-2 border-opacity-50 border-b-2 border-white lg:py-10  py-5">
                 <h1 class="text-white text-7xl text-center">THE BLOG</h1>
             </div>
         </section>
         <div class="text-white mt-20">
             <h2 class="text-2xl block">Todos los Posts:</h2>
         </div>
-        <section class="grid grid-cols-6 gap-5 text-white mt-10">
+        <section class="grid grid-cols-6 gap-5  text-white mt-10">
             @foreach ($posts as $post)
-            <a href="{{ route('blog.show', $post->slug)  }}" class="block xl:col-span-2 col-span-6 md:col-span-3">
-                <div class="">
-
-                    <img src="{{ "/storage" . "/" . $post->image }}" alt="">
+            <a href="{{ route('blog.show', $post->slug)  }}" class="block  xl:col-span-2 col-span-6 md:col-span-3">
+                <div class="h-[250px]  w-full">
+                    <img src="{{ $post->image_url }}" class="h-full w-full object-cover" alt="">
                 </div>
                 <div class="my-5">
-                    <span class="text-indigo-500">
+                    <div class="flex items-center justify-between">
+                        <span class="text-indigo-500">
                     {{ \Carbon\Carbon::parse($post->created_at)->locale('es_ES')->isoFormat('dddd, D MMM YYYY') }}
                     </span>
-                    <h3 class="text-2xl font-semibold">{{ $post->title }}</h3>
+                    <span class="text-indigo-500">
+                        <span class="px-3  rounded-full border-2  border-red-600 text-sm text-red-500">{{ $post->category->name }}</span>
+                    </span>
+                    </div>
+                    <h3 class="text-2xl text-slate-100 font-semibold text-opacity-70">{{ $post->title }}</h3>
                     <span class="text-white text-opacity-50">{{ $post->excerpt }}</span>
                 </div>
             </a>

@@ -59,12 +59,12 @@
     <body class="antialiased  xl:p-10 px-5 py-4 scroll-smooth relative" >
         <x-header />
         <a href="https://wa.me/51918822791?text=%C2%A1Hola!" target="_blank">
-            <img src="{{ asset('images/whatsapp.png')}}" class="fixed z-50 bottom-10 right-10  h-[60px] w-[60px]" alt="">
+            <img src="{{ asset('images/whatsapp.png')}}" class="fixed z-50 bottom-5 xl:bottom-10 xl:right-10 right-5  h-[60px] w-[60px]" alt="">
         </a>
         {{-- <x-carousel /> --}}
         <x-hero-title />
         <div class=" text-center  mt-10 flex justify-center">
-            <div class="w-1/2">
+            <div class="xl:w-1/2">
                 <span class="text-white xl:text-2xl opacity-50 text-center">Cuéntanos tu proyecto y nos encargaremos de crearte toda una experiencia con las mejores tecnologías.</span>
             </div>
         </div>
